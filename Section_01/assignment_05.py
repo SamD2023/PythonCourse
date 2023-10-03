@@ -23,9 +23,10 @@ word = "Cool"
 
 
 # Your code below:
+position = int(len(chars)/2)
 
-
-
+result = chars[:position] + word + chars[position:]
+print(result)
 
 
 
