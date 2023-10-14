@@ -10,7 +10,12 @@ who owns a bike, a laptop and boat.
 """
 
 # your code below:
+new_dict = {'Tom' : {'salary' : 20000, 'age': 22, 'owns':['jacket', 'car', 'TV']} , 
+            'Mike' : {'salaray' : 24000, 'age': 27, 'owns':['bike', 'laptop', 'boat']}}
 
+# print(new_dict['Tom']['age'])
+print(new_dict['Mike'])
+print(new_dict['Mike'].get('owns'))
 
 
 
